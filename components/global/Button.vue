@@ -4,8 +4,13 @@
 <script setup lang="ts">
 	interface Props {
 		text: string;
+		variant?: string;
 	}
 
 	defineProps<Props>();
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+	.btn {
+		@apply bg-pink-300;
+	}
+</style>
